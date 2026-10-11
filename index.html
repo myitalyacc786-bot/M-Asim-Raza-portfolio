@@ -1,0 +1,639 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Muhammad Asim Raza</title>
+<meta name="description" content="Muhammad Asim Raza – warehouse, food production and sales operative in the Milan area. Fluent English, HACCP, Category B driving licence.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@400;500;600;700;800&display=swap">
+<style>
+/* Layout: night-shift logistics hub — ink navy ground, brass light, glass crates. Single committed dark look. */
+:root{
+  --ink:#0C1424; --ink-2:#121D33; --glass:rgba(255,255,255,.045); --glass-2:rgba(255,255,255,.08);
+  --line:rgba(201,166,107,.22); --hair:rgba(255,255,255,.10);
+  --fg:#EEF1F6; --muted:#A9B3C4; --brass:#C9A66B; --brass-2:#E2C48E; --brass-ink:#1A1408;
+  --display:'DM Serif Display', Georgia, 'Times New Roman', serif;
+  --body:'Manrope', 'Helvetica Neue', Arial, sans-serif;
+  --r:14px; --max:1120px;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--ink);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:radial-gradient(900px 500px at 85% -10%,rgba(201,166,107,.13),transparent 60%),radial-gradient(700px 500px at -10% 40%,rgba(70,110,180,.12),transparent 60%)}
+a{color:var(--brass-2)}
+:focus-visible{outline:2px solid var(--brass-2);outline-offset:3px;border-radius:6px}
+.wrap{position:relative;z-index:1;max-width:var(--max);margin:0 auto;padding-inline:clamp(16px,4vw,40px)}
+h1,h2,h3{text-wrap:balance}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--brass)}
+
+/* nav */
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(12,20,36,.72);border-bottom:1px solid var(--hair)}
+.nav .wrap{display:flex;align-items:center;gap:16px;min-height:64px;flex-wrap:wrap;padding-block:8px}
+.mark{font-family:var(--display);font-size:22px;color:var(--fg);text-decoration:none;margin-right:auto;white-space:nowrap}
+.mark span{color:var(--brass)}
+.links{display:flex;gap:4px;flex-wrap:wrap}
+.links a{color:var(--muted);text-decoration:none;font-size:14px;font-weight:600;padding:8px 10px;border-radius:8px;transition:color .2s,background .2s}
+.links a:hover{color:var(--fg);background:var(--glass-2)}
+.lang{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:3px}
+.lang button{all:unset;cursor:pointer;font-size:12px;font-weight:800;letter-spacing:.08em;padding:7px 12px;border-radius:999px;color:var(--muted);min-height:20px}
+.lang button[aria-pressed="true"]{background:var(--brass);color:var(--brass-ink)}
+.lang button:focus-visible{outline:2px solid var(--brass-2)}
+@media (max-width:820px){.links{display:none}}
+
+/* hero */
+.hero{position:relative;padding-block:clamp(48px,8vw,96px) clamp(40px,6vw,72px)}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:32px;align-items:center}
+.hero h1{font-family:var(--display);font-weight:400;font-size:clamp(44px,7.4vw,88px);line-height:.98;margin:14px 0 18px;letter-spacing:-.01em}
+.hero h1 em{font-style:normal;color:var(--brass)}
+.role{font-size:clamp(15px,1.6vw,18px);font-weight:700;color:var(--fg);margin:0 0 12px}
+.pitch{color:var(--muted);max-width:56ch;margin:0 0 28px}
+.ctas{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 22px;border-radius:999px;font:700 15px var(--body);text-decoration:none;cursor:pointer;border:1px solid transparent;transition:transform .2s,box-shadow .2s,background .2s}
+.btn-p{background:var(--brass);color:var(--brass-ink);box-shadow:0 10px 30px -10px rgba(201,166,107,.6)}
+.btn-p:hover{transform:translateY(-2px);background:var(--brass-2)}
+.btn-g{background:var(--glass);color:var(--fg);border-color:var(--hair)}
+.btn-g:hover{transform:translateY(-2px);border-color:var(--line)}
+.btn[disabled]{opacity:.55;cursor:not-allowed;transform:none}
+.status{min-height:22px;font-size:13px;color:var(--muted);margin-top:10px}
+.stage{position:relative;aspect-ratio:766/979;width:100%;max-width:min(100%,500px);justify-self:center;border-radius:28px;overflow:hidden;isolation:isolate;
+  background:
+    radial-gradient(60% 42% at 50% 24%,rgba(226,196,142,.30),rgba(226,196,142,0) 70%),
+    radial-gradient(80% 60% at 85% 10%,rgba(111,143,208,.20),transparent 70%),
+    linear-gradient(180deg,#18243D 0%,#0F1828 70%,#0C1424 100%);
+  border:1px solid var(--line);box-shadow:0 40px 80px -40px rgba(0,0,0,.8),inset 0 1px 0 rgba(255,255,255,.06)}
+.stage::before{content:"";position:absolute;inset:auto 10% 0;height:22%;background:radial-gradient(50% 100% at 50% 100%,rgba(201,166,107,.18),transparent 70%);z-index:0}
+.stage .still,#portrait3d{position:absolute;inset:0;width:100%;height:100%;display:block;z-index:1}
+.stage .still{object-fit:contain;object-position:center bottom;transform:scale(.96);transition:opacity .7s ease}
+#portrait3d{opacity:0;transition:opacity .7s ease}
+.stage.live #portrait3d{opacity:1}
+.stage.live .still{opacity:0}
+.stage .glint{position:absolute;inset:0;z-index:2;pointer-events:none;background:linear-gradient(180deg,transparent 70%,rgba(12,20,36,.55));}
+.badge{z-index:3}
+.badge{position:absolute;left:4%;bottom:6%;display:flex;gap:10px;align-items:center;padding:10px 14px;border-radius:12px;background:rgba(12,20,36,.7);border:1px solid var(--line);backdrop-filter:blur(8px);font-size:13px;font-weight:700}
+.dot{width:8px;height:8px;border-radius:50%;background:#5FD08A;box-shadow:0 0 0 4px rgba(95,208,138,.18)}
+.facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:40px}
+.fact{padding:16px;border-radius:var(--r);background:var(--glass);border:1px solid var(--hair)}
+.fact b{display:block;font-family:var(--display);font-weight:400;font-size:30px;line-height:1;color:var(--brass-2)}
+.fact span{font-size:13px;color:var(--muted)}
+@media (max-width:860px){.hero .wrap{grid-template-columns:1fr}.stage{max-width:360px;margin:0 auto;order:-1}.facts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* sections */
+section.block{position:relative;padding-block:clamp(56px,8vw,96px);border-top:1px solid var(--hair)}
+.sh{display:flex;flex-direction:column;gap:10px;margin-bottom:36px;max-width:640px}
+.sh h2{font-family:var(--display);font-weight:400;font-size:clamp(32px,4.4vw,48px);line-height:1.05;margin:0}
+.sh p{color:var(--muted);margin:0}
+.glass{background:var(--glass);border:1px solid var(--hair);border-radius:var(--r);backdrop-filter:blur(6px)}
+
+.about{display:grid;grid-template-columns:minmax(0,1fr);gap:40px;align-items:start;max-width:880px}
+.portrait{position:relative;border-radius:20px;overflow:hidden;border:1px solid var(--line);aspect-ratio:4/5;max-width:100%}
+.portrait img{width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block;transition:transform .8s}
+.portrait:hover img{transform:scale(1.04)}
+.about p.lead{font-size:18px;line-height:1.7;margin:0 0 24px;max-width:62ch}
+.kv{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+@media (max-width:980px){.kv{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.kv div{padding:14px 16px}
+.kv dt{font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--brass)}
+.kv dd{margin:4px 0 0;font-weight:600}
+@media (max-width:760px){.about{grid-template-columns:1fr}.portrait{max-width:320px}.kv{grid-template-columns:1fr}}
+
+.timeline{position:relative;display:flex;flex-direction:column;gap:20px;padding-left:28px}
+.timeline::before{content:"";position:absolute;left:6px;top:8px;bottom:8px;width:2px;background:linear-gradient(var(--brass),rgba(201,166,107,.05))}
+.job{position:relative;padding:22px 24px;transition:border-color .3s,transform .3s}
+.job::before{content:"";position:absolute;left:-28px;top:28px;width:14px;height:14px;border-radius:50%;background:var(--ink);border:2px solid var(--brass)}
+.job:hover{border-color:var(--line);transform:translateX(4px)}
+.jh{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:baseline}
+.jh h3{margin:0;font-size:20px;font-weight:800}
+.when{font-size:12px;font-weight:800;letter-spacing:.1em;color:var(--brass);white-space:nowrap}
+.where{color:var(--muted);font-size:14px;margin:4px 0 14px}
+.job ul{margin:0;padding:0;list-style:none;display:grid;gap:8px}
+.job li{position:relative;padding-left:18px;color:#D7DDE7}
+.job li::before{content:"";position:absolute;left:0;top:.65em;width:6px;height:6px;transform:rotate(45deg);background:var(--brass)}
+.job li b{color:var(--fg)}
+
+.skills{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.sg{padding:22px;transition:transform .3s,border-color .3s;transform-style:preserve-3d}
+.sg:hover{border-color:var(--line)}
+.sg h3{margin:0 0 14px;font-size:16px;font-weight:800}
+.sg .ic{width:40px;height:40px;border-radius:10px;display:grid;place-items:center;background:rgba(201,166,107,.12);color:var(--brass);margin-bottom:14px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font-size:13px;font-weight:600;padding:6px 11px;border-radius:999px;background:var(--glass-2);color:#DCE2EC}
+@media (max-width:980px){.skills{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.skills{grid-template-columns:1fr}}
+
+.langs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:28px}
+.lg{padding:20px 22px}
+.lg .top{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-bottom:12px}
+.lg b{font-size:17px}.lg em{font-style:normal;font-size:13px;color:var(--muted)}
+.meter{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+.meter i{height:6px;border-radius:3px;background:var(--glass-2);overflow:hidden;position:relative}
+.meter i.on::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--brass),var(--brass-2));transform-origin:left;transform:scaleX(1);transition:transform .7s cubic-bezier(.2,.7,.2,1)}
+.anim .meter i.on::after{transform:scaleX(0)}
+.anim .in .meter i.on::after{transform:scaleX(1)}
+@media (max-width:760px){.langs{grid-template-columns:1fr}}
+
+.certs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.cert{padding:22px;display:flex;flex-direction:column;gap:10px}
+.cert .tag{font-size:11px;font-weight:800;letter-spacing:.16em;color:var(--brass)}
+.cert b{font-size:17px;line-height:1.35}
+.note{margin-top:20px;padding:18px 22px;border:1px dashed var(--line);border-radius:var(--r);color:var(--muted);font-size:14px}
+@media (max-width:980px){.certs{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.certs{grid-template-columns:1fr}}
+
+.roles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.rc{position:relative;padding:24px;min-height:220px;overflow:hidden;cursor:default;transition:transform .35s,border-color .35s}
+.rc:hover,.rc:focus-within{border-color:var(--line);transform:translateY(-4px)}
+.rc .n{font-family:var(--display);font-size:15px;color:var(--brass)}
+.rc h3{margin:10px 0 8px;font-size:20px;font-weight:800}
+.rc p{margin:0;color:var(--muted);font-size:14px}
+.rc .fit{margin-top:16px;display:flex;flex-wrap:wrap;gap:6px}
+.rc .fit span{font-size:12px;font-weight:700;padding:5px 10px;border-radius:999px;border:1px solid var(--line);color:var(--brass-2)}
+.rc::after{content:"";position:absolute;inset:auto -40% -60% auto;width:220px;height:220px;border-radius:50%;background:radial-gradient(rgba(201,166,107,.22),transparent 70%);transition:transform .5s;pointer-events:none}
+.rc:hover::after{transform:translate(-30px,-30px)}
+@media (max-width:980px){.roles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:620px){.roles{grid-template-columns:1fr}}
+
+.contact{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+.cc{padding:22px 24px;display:flex;flex-direction:column;gap:8px}
+.cc .tag{font-size:11px;font-weight:800;letter-spacing:.16em;color:var(--brass);text-transform:uppercase}
+.cc .val{font-size:clamp(17px,2.2vw,22px);font-weight:700;word-break:break-word;user-select:all}
+.cc .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+.mini{all:unset;cursor:pointer;font-size:13px;font-weight:700;padding:9px 14px;border-radius:999px;border:1px solid var(--hair);color:var(--fg);min-height:20px}
+.mini:hover{border-color:var(--line)}
+.mini:focus-visible{outline:2px solid var(--brass-2)}
+.cta-band{margin-top:24px;padding:28px;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;border-radius:20px;border:1px solid var(--line);background:linear-gradient(120deg,rgba(201,166,107,.14),rgba(255,255,255,.02))}
+.cta-band h3{margin:0;font-family:var(--display);font-weight:400;font-size:clamp(24px,3vw,32px)}
+@media (max-width:700px){.contact{grid-template-columns:1fr}}
+
+footer{border-top:1px solid var(--hair);padding-block:28px;color:var(--muted);font-size:12.5px;position:relative;z-index:1}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+/* reveal: content is visible at rest; motion only nudges it into place */
+.anim .rv{transform:translateY(18px);transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+.anim .rv.in{transform:none}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+</style>
+
+<nav class="nav" aria-label="Main">
+  <div class="wrap">
+    <a class="mark" href="#top">M. Asim Raza<span>.</span></a>
+    <div class="links" id="links"></div>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" id="lang-en" aria-pressed="true">EN</button>
+      <button type="button" id="lang-it" aria-pressed="false">IT</button>
+    </div>
+  </div>
+</nav>
+
+<main id="top">
+  <header class="hero">
+    <div class="wrap">
+      <div class="rv">
+        <div class="eyebrow" data-k="heroEyebrow"></div>
+        <h1>Muhammad <em>Asim</em> Raza</h1>
+        <p class="role" data-k="heroRole"></p>
+        <p class="pitch" data-k="heroPitch"></p>
+        <div class="ctas">
+          <button class="btn btn-p dl" type="button" id="dl-hero">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+            <span data-k="dl"></span>
+          </button>
+          <a class="btn btn-g" href="#contact" data-k="ctaContact"></a>
+        </div>
+        <div class="status" id="dl-status-hero" role="status" aria-live="polite"></div>
+      </div>
+      <div class="stage" id="stage">
+        <img class="still" src="portrait.png" alt="Portrait of Muhammad Asim Raza" width="766" height="979" fetchpriority="high">
+        <canvas id="portrait3d" aria-hidden="true"></canvas>
+        <div class="glint" aria-hidden="true"></div>
+        <div class="badge"><span class="dot"></span><span data-k="badge"></span></div>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="facts" id="facts"></div>
+    </div>
+  </header>
+
+  <section class="block" id="about">
+    <div class="wrap">
+      <div class="sh rv"><div class="eyebrow" data-k="aboutEyebrow"></div><h2 data-k="aboutTitle"></h2></div>
+      <div class="about">
+        <div class="rv">
+          <p class="lead" data-k="summary"></p>
+          <dl class="kv" id="kv" style="margin:0"></dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="experience">
+    <div class="wrap">
+      <div class="sh rv"><div class="eyebrow" data-k="expEyebrow"></div><h2 data-k="expTitle"></h2></div>
+      <div class="timeline" id="jobs"></div>
+    </div>
+  </section>
+
+  <section class="block" id="skills">
+    <div class="wrap">
+      <div class="sh rv"><div class="eyebrow" data-k="skEyebrow"></div><h2 data-k="skTitle"></h2></div>
+      <div class="skills" id="skillgrid"></div>
+      <div class="langs" id="langs"></div>
+    </div>
+  </section>
+
+  <section class="block" id="certifications">
+    <div class="wrap">
+      <div class="sh rv"><div class="eyebrow" data-k="ceEyebrow"></div><h2 data-k="ceTitle"></h2></div>
+      <div class="certs" id="certs"></div>
+      <p class="note rv" data-k="ceNote"></p>
+    </div>
+  </section>
+
+  <section class="block" id="roles">
+    <div class="wrap">
+      <div class="sh rv"><div class="eyebrow" data-k="roEyebrow"></div><h2 data-k="roTitle"></h2><p data-k="roIntro"></p></div>
+      <div class="roles" id="rolegrid"></div>
+    </div>
+  </section>
+
+  <section class="block" id="contact">
+    <div class="wrap">
+      <div class="sh rv"><div class="eyebrow" data-k="coEyebrow"></div><h2 data-k="coTitle"></h2></div>
+      <div class="contact">
+        <div class="cc glass rv">
+          <span class="tag" data-k="phone"></span>
+          <span class="val" id="v-phone">+39 389 909 6230</span>
+          <div class="row"><button class="mini" type="button" data-copy="v-phone" data-k="copy"></button><a class="mini" href="tel:+393899096230" data-k="call"></a></div>
+        </div>
+        <div class="cc glass rv">
+          <span class="tag">Email</span>
+          <span class="val" id="v-mail">Muhammadaasim858@gmail.com</span>
+          <div class="row"><button class="mini" type="button" data-copy="v-mail" data-k="copy"></button><a class="mini" href="mailto:Muhammadaasim858@gmail.com" data-k="write"></a></div>
+        </div>
+        <div class="cc glass rv">
+          <span class="tag" data-k="addr"></span>
+          <span class="val" data-k="addrVal"></span>
+        </div>
+        <div class="cc glass rv">
+          <span class="tag" data-k="avail"></span>
+          <span class="val" data-k="availVal"></span>
+        </div>
+      </div>
+      <div class="cta-band rv">
+        <h3 data-k="bandTitle"></h3>
+        <div>
+          <button class="btn btn-p dl" type="button" id="dl-band"><span data-k="dl"></span></button>
+          <div class="status" id="dl-status-band" role="status" aria-live="polite"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap"><span data-k="gdpr"></span><span>© Muhammad Asim Raza</span></div>
+</footer>
+
+<script>
+(function(){
+const T = {
+ en:{
+  nav:[["about","About"],["experience","Experience"],["skills","Skills"],["certifications","Certifications"],["roles","Roles"],["contact","Contact"]],
+  heroEyebrow:"Milan area · Available immediately",
+  heroRole:"Warehouse · Food Production · Sales & Customer Service",
+  heroPitch:"Reliable, hands-on and precise. Experience in Italy in warehouse logistics, automated food packaging and retail sales, with fluent English for international customers.",
+  dl:"Download CV (PDF)", ctaContact:"Get in touch", badge:"Open to work · Milan",
+  facts:[["3","sectors: logistics, food production, retail"],["3","languages spoken"],["4","certificates & licence"],["B","driving licence"]],
+  aboutEyebrow:"About", aboutTitle:"Steady hands, clear communication.",
+  summary:"I am a reliable and motivated 23-year-old based near Milan. In Italy I have worked in warehouse logistics, on automated packaging lines in the bakery and biscuit sector, and as a sales assistant in a clothing and footwear store. I am careful with hygiene and safety, precise with stock and labels, and comfortable serving international customers in fluent English. I am ready to start straight away, including shifts and weekends.",
+  kv:[["Age","23"],["Based in","Pozzuolo Martesana (MI)"],["Availability","Immediate · shifts & weekends"],["Driving licence","Category B"]],
+  expEyebrow:"Experience", expTitle:"Where I have worked",
+  jobs:[
+   {t:"Food Production & Packaging Operative",d:"Nov 2024 – Present",w:"Bakery & biscuit sector · Santa Maria del Cedro (CS), Italy",b:[
+     ["Packaging lines","monitored and operated automated lines for packaging, wrapping and boxing biscuits and baked goods."],
+     ["HACCP & hygiene","strictly followed food-safety rules, kept the work area clean and used the correct PPE."],
+     ["Quality checks","checked weight, shape and baking of products and removed defects."],
+     ["Labeling & pallets","applied batch numbers and expiry dates and prepared pallets for the warehouse."]]},
+   {t:"Warehouse Operative & Logistics Assistant",d:"Nov 2024 – Sep 2026",w:"Warehouse & logistics · Santa Maria del Cedro (CS), Italy",b:[
+     ["Stock management","daily stock counts, organised storage and efficient loading/unloading orders."],
+     ["Goods handling","received, checked, packed and labeled incoming and outgoing goods."],
+     ["Safety","strictly applied hygiene, workplace safety rules and operating procedures."]]},
+   {t:"Sales Assistant",d:"1 year",w:"Clothing & footwear store · Scalea (CS), Italy",b:[
+     ["Customer service","welcomed customers and built lasting relationships through friendly, professional service."],
+     ["Sales advice","helped customers choose clothing and shoes, recommending styles and sizes."],
+     ["International clients","served foreign customers with confidence in fluent English."],
+     ["Cash desk","handled payments at the till accurately."]]}],
+  skEyebrow:"Skills", skTitle:"What I bring to a team",
+  groups:[
+   ["Warehouse & logistics","box",["Receiving & dispatch","Stock control","Loading / unloading","Pallet preparation","Labeling"]],
+   ["Production & quality","gear",["Automated packaging lines","Weight & quality checks","Batch & expiry traceability"]],
+   ["Sales & customers","chat",["Customer service","International clients in English","Product & size advice","Cash desk"]],
+   ["Safety & work style","shield",["HACCP","Workplace safety & PPE","Teamwork","Shift flexibility"]]],
+  langs:[["English","Full professional",5],["Italian","A2 · Conversational",4],["Urdu / Hindi","Native",5]],
+  ceEyebrow:"Certifications", ceTitle:"Certified and road-ready",
+  certs:[["Food safety","HACCP Certificate"],["Safety · Italy","Workplace Safety Training Certificate"],["Language · CEFR","Italian Language A2 Certificate"],["Driving","Driving Licence – Category B"]],
+  ceNote:"Open to further training, such as a forklift licence (patentino muletto), and to improving my Italian to B1.",
+  roEyebrow:"Roles", roTitle:"Roles I am ready for", roIntro:"Each role below matches experience I already have.",
+  roles:[
+   ["Warehouse Operative","Receiving, stock control, picking, loading and pallet preparation.",["Stock counts","Loading","Labeling"]],
+   ["Production & Packaging","Automated lines, packaging and in-line product checks.",["Packaging lines","HACCP","Quality checks"]],
+   ["Sales Assistant","Retail customer service, product advice and the cash desk.",["Customers","Fluent English","Cash desk"]],
+   ["Back Office Sales","Order handling and client communication in English.",["Orders","Fluent English","Accuracy"]],
+   ["Quality Control Support","Incoming goods checks, in-line checks and traceability.",["Goods-in checks","Traceability","PPE"]],
+   ["Hotel Housekeeping","High hygiene standards, attention to detail and guest-facing English.",["Hygiene","Detail","English"]]],
+  coEyebrow:"Contact", coTitle:"Let's talk",
+  phone:"Phone", copy:"Copy", copied:"Copied", call:"Call", write:"Write an email",
+  addr:"Address", addrVal:"Via Camillo Benso di Cavour 1A, 20060 Pozzuolo Martesana (MI), Italy",
+  avail:"Availability", availVal:"Immediate · full-time, shifts and weekends",
+  bandTitle:"The full CV in English and Italian, on two A4 pages.",
+  dlBusy:"Preparing the PDF…", dlOk:"Download started.", dlNo:"Download isn't available in this view. Contact me and I will email the CV.", dlDeclined:"Download cancelled.", dlErr:"The download didn't work. Please try again.",
+  gdpr:"I authorise the processing of my personal data pursuant to Legislative Decree 196/2003 and the GDPR (EU Regulation 2016/679)."
+ },
+ it:{
+  nav:[["about","Profilo"],["experience","Esperienza"],["skills","Competenze"],["certifications","Certificazioni"],["roles","Ruoli"],["contact","Contatti"]],
+  heroEyebrow:"Area di Milano · Disponibile da subito",
+  heroRole:"Magazzino · Produzione Alimentare · Vendita e Assistenza Clienti",
+  heroPitch:"Affidabile, pratico e preciso. Esperienza in Italia nella logistica di magazzino, nel confezionamento alimentare automatico e nella vendita, con inglese fluente per la clientela internazionale.",
+  dl:"Scarica il CV (PDF)", ctaContact:"Contattami", badge:"Disponibile · Milano",
+  facts:[["3","settori: logistica, produzione, vendita"],["3","lingue parlate"],["4","certificati e patente"],["B","patente di guida"]],
+  aboutEyebrow:"Profilo", aboutTitle:"Mani esperte, comunicazione chiara.",
+  summary:"Sono un ragazzo di 23 anni affidabile e motivato e vivo vicino a Milano. In Italia ho lavorato nella logistica di magazzino, sulle linee di confezionamento automatiche nel settore biscotti e prodotti da forno e come addetto alle vendite in un negozio di abbigliamento e calzature. Sono attento a igiene e sicurezza, preciso con scorte ed etichette e a mio agio con i clienti stranieri in inglese fluente. Posso iniziare subito, anche su turni e nel weekend.",
+  kv:[["Età","23 anni"],["Residenza","Pozzuolo Martesana (MI)"],["Disponibilità","Immediata · turni e weekend"],["Patente","Categoria B"]],
+  expEyebrow:"Esperienza", expTitle:"Dove ho lavorato",
+  jobs:[
+   {t:"Operaio di Produzione e Confezionamento Alimentare",d:"Nov 2024 – Oggi",w:"Settore biscotti e prodotti da forno · Santa Maria del Cedro (CS), Italia",b:[
+     ["Linee di confezionamento","monitoraggio e gestione delle linee automatiche per confezionamento, imballaggio e inscatolamento."],
+     ["HACCP e igiene","rigoroso rispetto delle norme igienico-sanitarie, pulizia dell'area di lavoro e uso dei DPI."],
+     ["Controllo qualità","verifica di peso, forma e cottura dei prodotti ed eliminazione degli scarti."],
+     ["Etichettatura e bancali","gestione di lotti e scadenze e preparazione dei bancali per il magazzino."]]},
+   {t:"Addetto al Magazzino e alla Logistica",d:"Nov 2024 – Set 2026",w:"Magazzino e logistica · Santa Maria del Cedro (CS), Italia",b:[
+     ["Gestione scorte","inventari giornalieri, stoccaggio ordinato e gestione degli ordini di carico/scarico."],
+     ["Movimentazione merci","ricezione, controllo, imballaggio ed etichettatura della merce in entrata e in uscita."],
+     ["Sicurezza","rigoroso rispetto delle norme igienico-sanitarie, di sicurezza e delle procedure."]]},
+   {t:"Addetto alle Vendite",d:"1 anno",w:"Negozio di abbigliamento e calzature · Scalea (CS), Italia",b:[
+     ["Assistenza clienti","accoglienza e rapporti duraturi grazie a un servizio cordiale e professionale."],
+     ["Consulenza alla vendita","supporto nella scelta di abbigliamento e scarpe, consigliando modelli e taglie."],
+     ["Clienti internazionali","clientela straniera seguita con sicurezza in inglese fluente."],
+     ["Cassa","gestione accurata dei pagamenti in cassa."]]}],
+  skEyebrow:"Competenze", skTitle:"Cosa porto in un team",
+  groups:[
+   ["Magazzino e logistica","box",["Ricevimento e spedizione","Gestione scorte","Carico / scarico","Preparazione bancali","Etichettatura"]],
+   ["Produzione e qualità","gear",["Linee di confezionamento","Controllo peso e qualità","Tracciabilità lotti e scadenze"]],
+   ["Vendita e clienti","chat",["Assistenza clienti","Clienti stranieri in inglese","Consulenza su prodotti e taglie","Cassa"]],
+   ["Sicurezza e attitudini","shield",["HACCP","Sicurezza sul lavoro e DPI","Lavoro in team","Turni flessibili"]]],
+  langs:[["Italiano","A2 · Conversativo",4],["Inglese","Fluente · Ottimo",5],["Urdu / Hindi","Madrelingua",5]],
+  ceEyebrow:"Certificazioni", ceTitle:"Certificazioni e patente",
+  certs:[["Sicurezza alimentare","Certificazione HACCP"],["Sicurezza · Italia","Attestato Formazione Sicurezza sul Lavoro"],["Lingua · QCER","Certificato di Lingua Italiana A2"],["Guida","Patente di Guida – Categoria B"]],
+  ceNote:"Disponibile a ulteriore formazione, come il patentino per il muletto, e a migliorare l'italiano fino al livello B1.",
+  roEyebrow:"Ruoli", roTitle:"Ruoli per cui sono pronto", roIntro:"Ogni ruolo corrisponde a un'esperienza che ho già.",
+  roles:[
+   ["Magazziniere","Ricevimento, gestione scorte, picking, carico e preparazione bancali.",["Inventari","Carico","Etichettatura"]],
+   ["Produzione e Confezionamento","Linee automatiche, confezionamento e controlli in linea.",["Linee","HACCP","Controllo qualità"]],
+   ["Addetto alle Vendite","Assistenza clienti, consulenza sui prodotti e cassa.",["Clienti","Inglese fluente","Cassa"]],
+   ["Back Office Commerciale","Gestione ordini e comunicazione con i clienti in inglese.",["Ordini","Inglese fluente","Precisione"]],
+   ["Supporto Controllo Qualità","Controllo merci in ingresso, controlli in linea e tracciabilità.",["Merci in ingresso","Tracciabilità","DPI"]],
+   ["Cameriere ai Piani","Elevati standard di igiene, cura dei dettagli e inglese con gli ospiti.",["Igiene","Dettagli","Inglese"]]],
+  coEyebrow:"Contatti", coTitle:"Parliamone",
+  phone:"Telefono", copy:"Copia", copied:"Copiato", call:"Chiama", write:"Scrivi un'email",
+  addr:"Indirizzo", addrVal:"Via Camillo Benso di Cavour 1A, 20060 Pozzuolo Martesana (MI), Italia",
+  avail:"Disponibilità", availVal:"Immediata · full-time, turni e weekend",
+  bandTitle:"Il CV completo in inglese e italiano, su due pagine A4.",
+  dlBusy:"Preparo il PDF…", dlOk:"Download avviato.", dlNo:"Il download non è disponibile in questa vista. Contattami e ti invio il CV via email.", dlDeclined:"Download annullato.", dlErr:"Il download non è riuscito. Riprova.",
+  gdpr:"Autorizzo il trattamento dei miei dati personali ai sensi del D.Lgs. 196/2003 e del GDPR (Regolamento UE 2016/679)."
+ }
+};
+const ICONS={
+ box:'<path d="M3 7l9-4 9 4-9 4-9-4z"/><path d="M3 7v10l9 4 9-4V7"/><path d="M12 11v10"/>',
+ gear:'<circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/>',
+ chat:'<path d="M21 12a8 8 0 0 1-11.6 7.1L3 21l1.9-6.4A8 8 0 1 1 21 12z"/>',
+ shield:'<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/>'
+};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const $=id=>document.getElementById(id);
+let lang="en";
+try{const s=localStorage.getItem("mar-lang"); if(s==="it"||s==="en") lang=s;}catch(e){}
+
+function render(){
+  const t=T[lang];
+  document.documentElement.lang=lang;
+  document.querySelectorAll("[data-k]").forEach(el=>{const v=t[el.dataset.k]; if(typeof v==="string") el.textContent=v;});
+  $("links").innerHTML=t.nav.map(([id,l])=>`<a href="#${id}">${esc(l)}</a>`).join("");
+  $("facts").innerHTML=t.facts.map(([b,s])=>`<div class="fact rv"><b>${esc(b)}</b><span>${esc(s)}</span></div>`).join("");
+  $("kv").innerHTML=t.kv.map(([k,v])=>`<div class="glass"><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("");
+  $("jobs").innerHTML=t.jobs.map(j=>`<article class="job glass rv"><div class="jh"><h3>${esc(j.t)}</h3><span class="when">${esc(j.d.toUpperCase())}</span></div><p class="where">${esc(j.w)}</p><ul>${j.b.map(([a,b])=>`<li><b>${esc(a)}:</b> ${esc(b)}</li>`).join("")}</ul></article>`).join("");
+  $("skillgrid").innerHTML=t.groups.map(([n,ic,items])=>`<div class="sg glass rv tilt"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[ic]}</svg></div><h3>${esc(n)}</h3><div class="chips">${items.map(i=>`<span class="chip">${esc(i)}</span>`).join("")}</div></div>`).join("");
+  $("langs").innerHTML=t.langs.map(([n,l,v])=>`<div class="lg glass rv"><div class="top"><b>${esc(n)}</b><em>${esc(l)}</em></div><div class="meter" role="img" aria-label="${esc(n)}: ${v} / 5">${[0,1,2,3,4].map(i=>`<i class="${i<v?"on":""}" style="transition-delay:${i*90}ms"></i>`).join("")}</div></div>`).join("");
+  $("certs").innerHTML=t.certs.map(([a,b])=>`<div class="cert glass rv"><span class="tag">${esc(a.toUpperCase())}</span><b>${esc(b)}</b></div>`).join("");
+  $("rolegrid").innerHTML=t.roles.map(([h,p,f],i)=>`<div class="rc glass rv tilt" tabindex="0"><span class="n">${String(i+1).padStart(2,"0")}</span><h3>${esc(h)}</h3><p>${esc(p)}</p><div class="fit">${f.map(x=>`<span>${esc(x)}</span>`).join("")}</div></div>`).join("");
+  $("lang-en").setAttribute("aria-pressed",lang==="en"); $("lang-it").setAttribute("aria-pressed",lang==="it");
+  bindCopy(); observe(); bindTilt();
+}
+
+/* copy */
+function bindCopy(){
+  document.querySelectorAll("[data-copy]").forEach(b=>{
+    b.onclick=()=>{const el=$(b.dataset.copy), txt=el.textContent.trim();
+      const done=()=>{b.textContent=T[lang].copied; setTimeout(()=>b.textContent=T[lang].copy,1600);};
+      const sel=()=>{const r=document.createRange(); r.selectNodeContents(el); const s=getSelection(); s.removeAllRanges(); s.addRange(r);};
+      try{navigator.clipboard.writeText(txt).then(done,sel);}catch(e){sel();}
+    };
+  });
+}
+
+/* reveal */
+const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+let io=null;
+function observe(){
+  if(reduce||!("IntersectionObserver" in window)) return;
+  document.documentElement.classList.add("anim");
+  io&&io.disconnect();
+  io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target);}}),{threshold:.12,rootMargin:"0px 0px -5% 0px"});
+  document.querySelectorAll(".rv").forEach(el=>{const r=el.getBoundingClientRect(); if(r.top<innerHeight) el.classList.add("in"); else io.observe(el);});
+}
+
+/* tilt micro-interaction */
+function bindTilt(){
+  if(reduce||matchMedia("(hover: none)").matches) return;
+  document.querySelectorAll(".tilt").forEach(c=>{
+    c.onpointermove=e=>{const r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;
+      c.style.transform=`perspective(800px) rotateX(${(-y*6).toFixed(2)}deg) rotateY(${(x*8).toFixed(2)}deg) translateY(-4px)`;};
+    c.onpointerleave=()=>{c.style.transform="";};
+  });
+}
+
+/* language */
+function setLang(l){lang=l; try{localStorage.setItem("mar-lang",l);}catch(e){} render();}
+$("lang-en").onclick=()=>setLang("en"); $("lang-it").onclick=()=>setLang("it");
+
+/* PDF download through the downloads capability */
+let dlNs; let dlReady=false;
+function status(msg){["dl-status-hero","dl-status-band"].forEach(id=>$(id).textContent=msg);}
+async function getDownloads(){
+  if(dlReady) return dlNs;
+  try{dlNs=window.claude&&window.claude.use?await window.claude.use("downloads"):null;}catch(e){dlNs=null;}
+  dlReady=true; return dlNs;
+}
+async function downloadCV(){
+  const t=T[lang];
+  const ns=await getDownloads();
+  if(!ns){status(t.dlNo);return;}
+  status(t.dlBusy);
+  try{
+    const res=await fetch("Muhammad_Asim_Raza_CV.pdf"); if(!res.ok) throw new Error("fetch");
+    const blob=await res.blob();
+    await ns.save({filename:"Muhammad_Asim_Raza_CV.pdf",data:blob});
+    status(t.dlOk);
+  }catch(err){
+    const c=err&&err.code;
+    status(c==="declined"?t.dlDeclined:(c==="unavailable"||c==="not_granted"||c==="capability_disabled")?t.dlNo:t.dlErr);
+  }
+}
+document.querySelectorAll(".dl").forEach(b=>b.addEventListener("click",downloadCV));
+
+render();
+
+/* Hero portrait: the real photo drawn by a small WebGL shader (no library).
+   - depth parallax: per-pixel offset from a hand-built depth map (head dome + nose + body plane)
+   - head turn: the canvas tilts a few degrees toward the pointer with a CSS 3D perspective
+   - gaze: inside each eye opening the iris is re-sampled with an offset and the uncovered
+     part is filled with that eye's sclera colour. The face is never replaced or generated. */
+(function portrait(){
+  const stage=$("stage"), canvas=$("portrait3d");
+  const D={w:766,h:979,irisR:6.8,
+    eyes:[{c:[328.0,209.5],r:[21.0,5.6],iris:[327.12,209.04],sclera:[0.703,0.604,0.575]},
+          {c:[418.5,206.3],r:[20.0,5.4],iris:[417.98,204.51],sclera:[0.696,0.59,0.559]}]};
+  let gl=null;
+  try{ gl=canvas.getContext("webgl",{premultipliedAlpha:true,alpha:true,antialias:false}); }catch(e){}
+  if(!gl) return;                                   // the still photo stays visible
+
+  const VS=`attribute vec2 aP; varying vec2 vUv; void main(){ vUv=aP*0.5+0.5; gl_Position=vec4(aP,0.0,1.0); }`;
+  const FS=`
+precision highp float;
+uniform sampler2D tCol, tMap; uniform vec2 uSize, uPar, uGaze; uniform float uIntro, uLight, uIR, uScale;
+uniform vec2 uEC0,uER0,uIC0,uEC1,uER1,uIC1; uniform vec3 uS0,uS1;
+varying vec2 vUv;
+vec2 tc(vec2 p){ return p/uSize; }
+vec4 col(vec2 p){ return texture2D(tCol, tc(p)); }
+vec3 mp(vec2 p){ return texture2D(tMap, tc(p)).rgb; }
+vec3 eye(vec3 c, vec2 q, vec2 ec, vec2 er, vec2 ic, vec3 scl){
+  vec2 e=(q-ec)/er; float inside=1.0-smoothstep(0.72,1.0,length(e));
+  if(inside<=0.0) return c;
+  vec2 s=q-uGaze*vec2(2.7,1.25);
+  float irisNew=1.0-smoothstep(uIR-1.1,uIR+0.3,length(s-ic));
+  float irisOld=1.0-smoothstep(uIR-0.6,uIR+0.9,length(q-ic));
+  vec3 sc=scl*mix(0.74,1.0,smoothstep(-0.95,0.35,e.y));
+  vec3 base=mix(c, sc, irisOld*(1.0-irisNew));
+  return mix(c, mix(base, col(s).rgb, irisNew), inside);
+}
+void main(){
+  vec2 uv=(vUv-0.5)/uScale+0.5;
+  vec2 p=vec2(uv.x*uSize.x,(1.0-uv.y)*uSize.y);
+  if(uv.x<0.0||uv.x>1.0||uv.y<0.0||uv.y>1.0){ gl_FragColor=vec4(0.0); return; }
+  vec2 off=uPar*vec2(7.0,5.0);
+  float d=mp(p).r; vec2 q=p-off*d; d=mp(q).r; q=p-off*d;
+  vec4 c=col(q);
+  c.rgb=eye(c.rgb,q,uEC0,uER0,uIC0,uS0);
+  c.rgb=eye(c.rgb,q,uEC1,uER1,uIC1,uS1);
+  vec3 m=mp(q);
+  c.rgb+=vec3(0.89,0.72,0.45)*m.g*0.42*(0.75+0.25*uLight);
+  c.rgb=mix(c.rgb, c.rgb*vec3(0.94,0.97,1.04), smoothstep(0.55,0.0,dot(c.rgb,vec3(0.333))));
+  float fade=smoothstep(uSize.y, uSize.y*0.84, p.y);
+  float a=c.a*fade*uIntro;
+  float sh=mp(p-off*0.3-vec2(-16.0,12.0)).b*0.5*fade*uIntro;
+  gl_FragColor=vec4(clamp(c.rgb,0.0,1.0)*a, a+sh*(1.0-a));
+}`;
+  function sh(type,src){ const s=gl.createShader(type); gl.shaderSource(s,src); gl.compileShader(s); if(!gl.getShaderParameter(s,gl.COMPILE_STATUS)) throw new Error(gl.getShaderInfoLog(s)); return s; }
+  let prog;
+  try{ prog=gl.createProgram(); gl.attachShader(prog,sh(gl.VERTEX_SHADER,VS)); gl.attachShader(prog,sh(gl.FRAGMENT_SHADER,FS)); gl.linkProgram(prog);
+       if(!gl.getProgramParameter(prog,gl.LINK_STATUS)) throw new Error(gl.getProgramInfoLog(prog)); }
+  catch(e){ console.warn("portrait shader:",e.message); return; }
+  gl.useProgram(prog);
+  const buf=gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER,buf);
+  gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,1,1]),gl.STATIC_DRAW);
+  const aP=gl.getAttribLocation(prog,"aP"); gl.enableVertexAttribArray(aP); gl.vertexAttribPointer(aP,2,gl.FLOAT,false,0,0);
+  const L=n=>gl.getUniformLocation(prog,n);
+  const u={size:L("uSize"),par:L("uPar"),gaze:L("uGaze"),intro:L("uIntro"),light:L("uLight"),scale:L("uScale")};
+  gl.uniform2f(u.size,D.w,D.h); gl.uniform1f(L("uIR"),D.irisR); gl.uniform1f(u.scale,.96);
+  D.eyes.forEach((e,i)=>{ gl.uniform2f(L("uEC"+i),e.c[0],e.c[1]); gl.uniform2f(L("uER"+i),e.r[0],e.r[1]); gl.uniform2f(L("uIC"+i),e.iris[0],e.iris[1]); gl.uniform3f(L("uS"+i),e.sclera[0],e.sclera[1],e.sclera[2]); });
+  gl.uniform1i(L("tCol"),0); gl.uniform1i(L("tMap"),1);
+  gl.enable(gl.BLEND); gl.blendFunc(gl.ONE,gl.ONE_MINUS_SRC_ALPHA);
+
+  const texs=[];
+  function loadTex(src,unit){ return new Promise((res,rej)=>{ const img=new Image(); img.onload=()=>{
+      const t=gl.createTexture(); gl.activeTexture(gl.TEXTURE0+unit); gl.bindTexture(gl.TEXTURE_2D,t);
+      gl.pixelStorei(gl.UNPACK_PREMULTIPLY_ALPHA_WEBGL,false); gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL,false);
+      gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,img);
+      gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR); gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);
+      gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE); gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);
+      texs.push(t); res(); }; img.onerror=rej; img.src=src; }); }
+
+  function size(){
+    const r=stage.getBoundingClientRect(), dpr=Math.min(window.devicePixelRatio||1,2);
+    const w=Math.max(1,Math.round(r.width*dpr)), h=Math.max(1,Math.round(r.height*dpr));
+    if(canvas.width!==w||canvas.height!==h){ canvas.width=w; canvas.height=h; }
+    gl.viewport(0,0,w,h);
+  }
+
+  // ----- input: the pointer anywhere on the page drives the gaze
+  const EYE={x:(D.eyes[0].iris[0]+D.eyes[1].iris[0])/2/D.w, y:(D.eyes[0].iris[1]+D.eyes[1].iris[1])/2/D.h};
+  let ptr=null, lastInput=0, idleT={x:0,y:0}, nextIdle=0;
+  const coarse=matchMedia("(hover: none)").matches;
+  const onPtr=e=>{ ptr={x:e.clientX,y:e.clientY}; lastInput=performance.now(); };
+  addEventListener("pointermove",onPtr,{passive:true});
+  addEventListener("pointerdown",onPtr,{passive:true});
+  document.documentElement.addEventListener("mouseleave",()=>{ptr=null;});
+  addEventListener("blur",()=>{ptr=null;});
+  addEventListener("pointerup",e=>{ if(e.pointerType!=="mouse") setTimeout(()=>{ if(performance.now()-lastInput>1400) ptr=null; },1500); },{passive:true});
+
+  // critically damped springs: smooth start, natural settle, no overshoot
+  const spring=(o,tx,ty,w,dt)=>{ o.vx+=(w*w*(tx-o.x)-2*w*o.vx)*dt; o.vy+=(w*w*(ty-o.y)-2*w*o.vy)*dt; o.x+=o.vx*dt; o.y+=o.vy*dt; };
+  const gaze={x:0,y:0,vx:0,vy:0}, head={x:0,y:0,vx:0,vy:0};
+  const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
+  function targets(now){
+    const r=stage.getBoundingClientRect();
+    if(ptr && now-lastInput<6000){
+      const ex=r.left+r.width*(0.5+(EYE.x-0.5)*.96), ey=r.top+r.height*(0.5+(EYE.y-0.5)*.96);
+      const dx=ptr.x-ex, dy=ptr.y-ey, k=Math.max(260,r.width*.9);
+      const cx=r.left+r.width/2, cy=r.top+r.height/2;
+      return {gx:clamp(dx/Math.hypot(dx,k),-1,1), gy:clamp(dy/Math.hypot(dy,k*.8),-.9,.9),
+              hx:clamp((ptr.x-cx)/(innerWidth*.5),-1,1), hy:clamp((ptr.y-cy)/(innerHeight*.5),-1,1)};
+    }
+    if(coarse && now>nextIdle){ idleT=Math.random()<.45?{x:0,y:0}:{x:(Math.random()-.5)*.5,y:(Math.random()-.5)*.3}; nextIdle=now+2600+Math.random()*2200; }
+    return coarse?{gx:idleT.x,gy:idleT.y,hx:idleT.x*.4,hy:idleT.y*.4}:{gx:0,gy:0,hx:0,hy:0};
+  }
+
+  const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let t0=0, prev=0, visible=true, running=false, live=false;
+  function frame(now){
+    const dt=Math.min(.05,(now-prev)/1000||.016); prev=now;
+    const T=targets(now);
+    spring(gaze,T.gx,T.gy,9,dt); spring(head,T.hx,T.hy,3.2,dt);
+    const intro=reduce?1:clamp((now-t0)/1400,0,1), ease=1-Math.pow(1-intro,3);
+    gl.uniform1f(u.intro,ease); gl.uniform2f(u.gaze,gaze.x,gaze.y); gl.uniform2f(u.par,head.x,head.y);
+    gl.uniform1f(u.light,.5+.5*head.x);
+    const breathe=reduce?0:Math.sin(now/1000*1.1)*.0016;
+    gl.uniform1f(u.scale,.96*(1.025-.025*ease+breathe));
+    canvas.style.transform=`perspective(1400px) rotateY(${(head.x*3.6).toFixed(3)}deg) rotateX(${(-head.y*2.2).toFixed(3)}deg) translate3d(${(head.x*4).toFixed(2)}px,${(head.y*3).toFixed(2)}px,0)`;
+    gl.clearColor(0,0,0,0); gl.clear(gl.COLOR_BUFFER_BIT);
+    gl.drawArrays(gl.TRIANGLE_STRIP,0,4);
+    if(!live){ live=true; stage.classList.add("live"); }
+  }
+  function loop(now){ if(!visible||document.hidden){running=false;return;} frame(now); requestAnimationFrame(loop); }
+  function start(){ if(running||reduce) return; running=true; prev=performance.now(); requestAnimationFrame(loop); }
+
+  Promise.all([loadTex("portrait.png",0),loadTex("maps.png",1)]).then(()=>{
+    size(); t0=performance.now();
+    if(reduce) frame(t0);
+    else{
+      new IntersectionObserver(es=>{visible=es[0].isIntersecting; if(visible) start();}).observe(stage);
+      document.addEventListener("visibilitychange",()=>{ if(!document.hidden&&visible) start(); });
+      start();
+    }
+    let rz; addEventListener("resize",()=>{clearTimeout(rz); rz=setTimeout(()=>{size(); if(reduce) frame(performance.now());},80);});
+  }).catch(()=>{ /* textures failed: keep the still photo */ });
+
+  canvas.addEventListener("webglcontextlost",e=>{e.preventDefault(); stage.classList.remove("live"); running=false;});
+  addEventListener("pagehide",()=>{ texs.forEach(t=>gl.deleteTexture(t)); gl.deleteBuffer(buf); gl.deleteProgram(prog); });
+})();
+})();
+</script>
+
+</body></html>
